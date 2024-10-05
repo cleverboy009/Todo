@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    flex-direction: column;
+    padding: 5% 0;
+}
+.main {
+    width: 500px;
+    height: 220px;
+    background-color: white;
+    border-bottom: 12px;
+    border-radius: 12px;
+}
+h1 {
+    text-align: center;
+    margin: 3% 0;
+}
+form {
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6% ;
+    gap: 10px;
+ 
+}
+.collect {
+    height: 458px;
+    width: 100%;
+    overflow-y: auto;
+}
+.inputin {
+    width: 70%; 
+    height: 40px; 
+    border-radius: 8px; 
+    padding: 3%; 
+}
+.btn {
+    width: 20%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+.input2 {
+    width: 62%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 3%; 
+    margin: 2% 9%;
+    
+}
+ul{
+    list-style-type: none;
+}
+.search{
+    width: 700px;
+    height: 400px;
+   
+    gap: 5px;
+    margin: 20% -20%;
+    background-color: white;
+    padding: 3% 0;
+}
+.searchin{
+    width: 60%;
+    height: 35px;
+    border-radius: 8px;
+    padding: 2% 2%;
+}
+.deleteAll{
+    height: 35px;
+    border-radius: 8px;
+    padding: 2% 2%;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+}
+.save{
+    margin-right: 20px;
+}
+.royxat{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    height: 130px;
+    background-color: white;
+    padding: 20px;
+    margin: 3% 0;
+}
+.searchAll{
+    width: 30px;
+    height: 30px;
+}
+.searchr{
+    height: 30px;
+}
+.btnroyxat{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table{
+    width: 100%;
+}
+.all{
+    width: 30px;
+}
+.main1{
+    padding: 15px;
+}
